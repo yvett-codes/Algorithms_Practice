@@ -15,13 +15,22 @@ class Trie:
         # We're going to initially start at the root
         cur = self.root
 
-        # Then we're going to go character by character in the word.
         for c in word:
-            # For every character we're going to check 2 things:
             # Does this char already exist? If not, create a TrieNode for the character
             if c not in cur.children:
                 cur.children[c] = TrieNode()
             cur = cur.children[c]
+        cur.endOfWord = True
+    
+    def search(self, word: str) -> bool:
+        """
+        Returns if the word is in the trie.
+        """
+
+    def startsWith(self, word: str) -> bool:
+        """
+        Returns if there is any word in the trie that starts with the given prefix.
+        """
 
 class Solution(object):
     def longestCommonPrefix(self, strs):

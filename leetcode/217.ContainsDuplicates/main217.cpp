@@ -3,32 +3,30 @@
 #include <iostream>
 #include <vector>
 #include <map>
-#include <string>
-#include <list>
 
 using namespace std;
 
-// CPP Maps order in ascending order or alphabetically
+bool containsDuplicate(vector<int>& nums) {
+    map<int, int> pokedex;
+
+    for (int i = 0; i < nums.size(); i++)
+    {
+        if (!pokedex[nums[i]]) {
+            pokedex[nums[i]] = 1;
+        }
+        else {
+            return true;
+        }
+    };
+    return false;
+};
+
 int main()
 {
-    map<string, list<string> > pokedex;
-
-    list<string> pikachuAttacks { "thunder shock", "tail whip", "quick attack" };
-    list<string> charmanderAttacks { "flame thrower", "ember", "scary face" };
-    list<string> chikoritaAttacks { "razor leaf", "tail poison powder", "vine whip" };
-    list<string> articunoAttacks { "flappy bird", "ice bean", "blizzard" };
-
-    pokedex.insert(pair<string, list<string> >("Pikachu", pikachuAttacks));
-    pokedex.insert(pair<string, list<string> >("Charmander", charmanderAttacks));
-    pokedex.insert(pair<string, list<string> >("Chikorita", chikoritaAttacks));
-    pokedex.insert(pair<string, list<string> >("Articuno", articunoAttacks));
-
-    for (auto pair : pokedex) {
-        cout << pair.first << " - ";
-        for (auto attack : pair.second)
-            cout << attack << ", ";
-
-        cout << endl;
-    };
-    // system("pause>0");
-}
+    vector<int> input1 = {1, 2, 3, 1};
+    vector<int> input2 = {1, 2, 3, 4};
+    vector<int> input3 = {1, 1, 1, 3, 3, 4, 3, 2, 4, 2};
+    containsDuplicate(input1);
+    containsDuplicate(input2);
+    containsDuplicate(input3);
+};

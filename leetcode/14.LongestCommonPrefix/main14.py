@@ -1,3 +1,5 @@
+# STATUS: IN PROGRESS
+
 # Trie node class
 class TrieNode:
     def __init__(self):

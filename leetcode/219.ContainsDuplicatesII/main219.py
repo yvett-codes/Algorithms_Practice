@@ -15,17 +15,26 @@ class Solution:
 # Testing Examples
 solution = Solution()
 
+# Pass
 nums = [1, 2, 3, 1]
 k = 3
 result = solution.containsNearbyDuplicate(nums, k)
-print("Example 1:", result)  # Output: True
+print("Example 1:", result)  # True
 
+# Pass
 nums = [1, 0, 1, 1]
 k = 1
 result = solution.containsNearbyDuplicate(nums, k)
-print("Example 2:", result)  # Output: True
+print("Example 2:", result)  # True
 
+# Pass
 nums = [1, 2, 3, 1, 2, 3]
 k = 2
 result = solution.containsNearbyDuplicate(nums, k)
-print("Example 3:", result)  # Output: False
+print("Example 3:", result)  # False
+
+# FAIL
+nums = [99, 99]
+k = 2
+result = solution.containsNearbyDuplicate(nums, k)
+print("Example 4:", result)  # True

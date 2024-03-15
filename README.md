@@ -5,6 +5,7 @@ Hello, this directory is dedicated towards my practice towards solving leetcode 
 I am working primarily in Python and C++.
 
 Problems Listed
+    Total: 3
 
 Leetcode:
 14

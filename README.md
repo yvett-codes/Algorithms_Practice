@@ -5,20 +5,20 @@ Hello, this directory is dedicated towards my practice towards solving leetcode 
 I am working primarily in Python and C++.
 
 ### Problems Listed
-    Total: 3
-    Total Python Complete:
-    Total C++ Complete:
+    Total: 4
+    Total Python Complete: 3
+    Total C++ Complete: 1
 
 ##### Leetcode:
 * 14.Longest Common Prefix
-    * Python: In Progress
+    * Python: In Progress ⌛
     * C++: Not Started
 * 67.Add Binary
-    * Python: Complete
+    * Python: Complete ✅
     * C++: Not Started
 * 217.Contains Duplicates
-    * Python: Complete
-    * C++: Complete
+    * Python: Complete ✅
+    * C++: Complete ✅
 * 219.Contains Duplicates II
-    * Python: Complete
+    * Python: Complete ✅
     * C++: Not Started

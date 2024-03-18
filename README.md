@@ -14,7 +14,7 @@ Leetcode:
     Python: In Progress
     C++: Not Started
 67
-    Python: In Progress
+    Python: Complete
     C++: Not Started
 217
     Python: Complete

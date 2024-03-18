@@ -1,6 +1,6 @@
 '''
-Status: In Progress
-Progress: -
+Status: Complete
+Progress: 296 / 296 testcases passed
 Refactored: NO
 '''
 
@@ -21,7 +21,7 @@ class Solution:
         else:
             diff = len(d) - len(c)
             for i in range(diff):
-                d.append(0)
+                c.append(0)
 
         for i in range(len(c)):
             sum = c[i] + d[i] + carry
@@ -47,4 +47,17 @@ class Solution:
     
 solution = Solution()
 
-solution.addBinary()
+a = "11"
+b = "1"
+result = solution.addBinary(a, b)
+print(result) # "100"
+
+a = "1010"
+b = "1011"
+result = solution.addBinary(a, b)
+print(result) # "10101"
+
+a = "1"
+b = "111"
+result = solution.addBinary(a, b)
+print(result) # "1000"

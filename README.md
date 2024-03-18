@@ -6,6 +6,8 @@ I am working primarily in Python and C++.
 
 Problems Listed
     Total: 3
+    Total Python Complete:
+    Total C++ Complete:
 
 Leetcode:
 14

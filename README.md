@@ -4,21 +4,21 @@ Hello, this directory is dedicated towards my practice towards solving leetcode 
 
 I am working primarily in Python and C++.
 
-Problems Listed
+### Problems Listed
     Total: 3
     Total Python Complete:
     Total C++ Complete:
 
-Leetcode:
-14
-    Python: In Progress
-    C++: Not Started
-67
-    Python: Complete
-    C++: Not Started
-217
-    Python: Complete
-    C++: Complete
-219
-    Python: Complete
-    C++: Not Started
+##### Leetcode:
+* 14.Longest Common Prefix
+    * Python: In Progress
+    * C++: Not Started
+* 67.Add Binary
+    * Python: Complete
+    * C++: Not Started
+* 217.Contains Duplicates
+    * Python: Complete
+    * C++: Complete
+* 219.Contains Duplicates II
+    * Python: Complete
+    * C++: Not Started

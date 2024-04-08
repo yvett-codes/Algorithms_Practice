@@ -2,5 +2,6 @@
 *.dSYM
 !*.py
 !*.cpp
+!*.md
 */0.Sample
 .vscode

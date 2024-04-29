@@ -10,6 +10,9 @@ I am working primarily in Python and C++.
     Total C++ Complete: 1
 
 ### Leetcode:
+* 2.Two Sum
+    * Python: ✅📝
+    * C++: -
 * 3.Longest Substring Without Repeating Characters
     * Python: -
     * C++: -

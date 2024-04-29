@@ -28,22 +28,22 @@ class Solution(object):
 ## Big O
 
 ### Time Complexity
-1. Identify data structures which can have variable size.
+1. Identify data structures which can have variable size.<br>
     There is one array with variable size, ```nums```, and its of size *n*.
     <br>
 
-2. Identify all the operations (steps) in the algorithm.
+2. Identify all the operations (steps) in the algorithm.<br>
     ```nums_dict = {}```
     ```for n in nums```
     ```if n not in nums```
     ```nums_dict[n] = 0```
     <br>
 
-3. Recognize which operations depend on the size of the data structure of size *n*.
+3. Recognize which operations depend on the size of the data structure of size *n*.<br>
 ```for n in nums``` ➡️ **n**
 <br>
 
-4. Create an equation that represents how many operations get performed and use *n* as a variable.
+4. Create an equation that represents how many operations get performed and use *n* as a variable.<br>
     ```nums_dict = {}``` ➡️ **1**
     ```for n in nums``` ➡️ **n**
     ```if n not in nums``` ➡️ **1**
@@ -51,39 +51,39 @@ class Solution(object):
     <br> ➡️ 1 + n + 1 + 1 ➡️ 3 + n
 <br>
 
-5. Drop all constants and find the dominant term.
+5. Drop all constants and find the dominant term.<br>
 ➡️ 3 + n ➡️ n
 <br>
 
-6. Match this to the most relevant complexity.
+6. Match this to the most relevant complexity.<br>
     n ➡️ **O(n) - Linear Time**
     <br>*The algorithm will grow in time directly proportional to the input size. The complexity increases at the same rate that the input increases.*
 <br>
 
 
 ### Space complexity:
-1. Identify all places where a variable is initialized.
+1. Identify all places where a variable is initialized.<br>
     ```nums_dict = {}```
     ```for n in nums```
     ```nums_dict[n] = 0```
     <br>
 
-2. Recognize which variables have a value that could take a variable amount of memory.
+2. Recognize which variables have a value that could take a variable amount of memory.<br>
     ```nums_dict = {}```
 <br>
 
-3. Create an equation that represents how many values are initialized and stored in memory.
+3. Create an equation that represents how many values are initialized and stored in memory.<br>
     ```nums_dict = {}``` ➡️ **n**
     ```for n in nums``` ➡️  **1**
     ```nums_dict[n] = 0``` ➡️  **1**
     <br> ➡️ n + 1 + 1 ➡️ n + 2
 <br>
 
-4. Drop all constants and find the dominant term.
+4. Drop all constants and find the dominant term.<br>
 ➡️ n + 2 ➡️ n + 1 ➡️ n
 <br>
 
-5. Match this to the most relevant complexity.
+5. Match this to the most relevant complexity.<br>
     1 ➡️ **O(n) - Linear Space**
     <br>*The algorithm will grow in space directly proportional to the input size. The complexity increases at the same rate that the input increases.*
 <br>

@@ -33,21 +33,21 @@ class Solution(object):
     <br>
 
 2. Identify all the operations (steps) in the algorithm.<br>
-    ```nums_dict = {}```
-    ```for n in nums```
-    ```if n not in nums```
-    ```nums_dict[n] = 0```
+    ```nums_dict = {}```<br>
+    ```for n in nums```<br>
+    ```if n not in nums```<br>
+    ```nums_dict[n] = 0```<br>
     <br>
 
 3. Recognize which operations depend on the size of the data structure of size *n*.<br>
-```for n in nums``` ➡️ **n**
+```for n in nums``` ➡️ **n**<br>
 <br>
 
 4. Create an equation that represents how many operations get performed and use *n* as a variable.<br>
-    ```nums_dict = {}``` ➡️ **1**
-    ```for n in nums``` ➡️ **n**
-    ```if n not in nums``` ➡️ **1**
-    ```nums_dict[n] = 0``` ➡️ **1**
+    ```nums_dict = {}``` ➡️ **1**<br>
+    ```for n in nums``` ➡️ **n**<br>
+    ```if n not in nums``` ➡️ **1**<br>
+    ```nums_dict[n] = 0``` ➡️ **1**<br>
     <br> ➡️ 1 + n + 1 + 1 ➡️ 3 + n
 <br>
 
@@ -56,26 +56,26 @@ class Solution(object):
 <br>
 
 6. Match this to the most relevant complexity.<br>
-    n ➡️ **O(n) - Linear Time**
+    n ➡️ **O(n) - Linear Time**<br>
     <br>*The algorithm will grow in time directly proportional to the input size. The complexity increases at the same rate that the input increases.*
 <br>
 
 
 ### Space complexity:
 1. Identify all places where a variable is initialized.<br>
-    ```nums_dict = {}```
-    ```for n in nums```
-    ```nums_dict[n] = 0```
+    ```nums_dict = {}```<br>
+    ```for n in nums```<br>
+    ```nums_dict[n] = 0```<br>
     <br>
 
 2. Recognize which variables have a value that could take a variable amount of memory.<br>
-    ```nums_dict = {}```
+    ```nums_dict = {}```<br>
 <br>
 
 3. Create an equation that represents how many values are initialized and stored in memory.<br>
-    ```nums_dict = {}``` ➡️ **n**
-    ```for n in nums``` ➡️  **1**
-    ```nums_dict[n] = 0``` ➡️  **1**
+    ```nums_dict = {}``` ➡️ **n**<br>
+    ```for n in nums``` ➡️  **1**<br>
+    ```nums_dict[n] = 0``` ➡️  **1**<br>
     <br> ➡️ n + 1 + 1 ➡️ n + 2
 <br>
 
@@ -84,6 +84,6 @@ class Solution(object):
 <br>
 
 5. Match this to the most relevant complexity.<br>
-    1 ➡️ **O(n) - Linear Space**
+    1 ➡️ **O(n) - Linear Space**<br>
     <br>*The algorithm will grow in space directly proportional to the input size. The complexity increases at the same rate that the input increases.*
 <br>

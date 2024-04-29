@@ -61,7 +61,7 @@ class Solution(object):
 <br>
 
 
-### Space complexity:
+### Space complexity
 1. Identify all places where a variable is initialized.<br>
     ```nums_dict = {}```<br>
     ```for n in nums```<br>

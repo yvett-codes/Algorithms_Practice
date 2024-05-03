@@ -1,4 +1,8 @@
-# STATUS: COMPLETE
+'''
+Status: Complete
+Progress: 100% Tests Passing
+Refactored: NO
+'''
 
 class Solution(object):
     def containsDuplicate(self, nums):
@@ -6,6 +10,7 @@ class Solution(object):
         :type nums: List[int]
         :rtype: bool
         """
+
         nums_dict = {}
         for n in nums:
             if n not in nums_dict:

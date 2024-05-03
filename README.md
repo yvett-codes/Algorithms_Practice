@@ -10,9 +10,6 @@ I am working primarily in Python and C++.
     Total C++ Complete: 1
 
 ### Leetcode:
-* 2.Two Sum
-    * Python: ✅📝
-    * C++: -
 * 3.Longest Substring Without Repeating Characters
     * Python: -
     * C++: -
@@ -23,7 +20,7 @@ I am working primarily in Python and C++.
     * Python: Complete ✅
     * C++: -
 * 217.Contains Duplicates
-    * Python: Complete ✅
+    * Python: Complete ✅📝
     * C++: Complete ✅
 * 219.Contains Duplicates II
     * Python: Complete ✅

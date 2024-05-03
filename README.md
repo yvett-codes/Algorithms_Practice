@@ -10,18 +10,12 @@ I am working primarily in Python and C++.
     Total C++ Complete: 1
 
 ### Leetcode:
-* 3.Longest Substring Without Repeating Characters
-    * Python: -
-    * C++: -
-* 14.Longest Common Prefix
-    * Python: In Progress ⌛
-    * C++: -
 * 67.Add Binary
     * Python: Complete ✅
-    * C++: -
 * 217.Contains Duplicates
     * Python: Complete ✅📝
     * C++: Complete ✅
 * 219.Contains Duplicates II
     * Python: Complete ✅
-    * C++: -
+* 242.Valid Anagram
+    * Python: In Progress ⌛

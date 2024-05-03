@@ -1,6 +1,6 @@
 '''
-Status: In Progress
-Progress: 43/48 Tests Passing
+Status: Complete
+Progress: 48/48 Tests Passing
 Refactored: NO
 '''
 
@@ -33,7 +33,7 @@ class Solution:
         print(my_dict)
 
         for key in my_dict.keys():
-            if my_dict[key] == True:
+            if my_dict[key]:
                 return False
         return True
 
@@ -48,8 +48,14 @@ t="nagaram"
 # result1 = solution.isAnagram(s, t)
 # print(f"Expected: True, Actual: {result1}")
 
-# Example 1
+# Test 1
 s="ab"
 t="a"
+# result1 = solution.isAnagram(s, t)
+# print(f"Expected: False, Actual: {result1}")
+
+# Test 2
+s="aabbbb"
+t="aaaabb"
 # result1 = solution.isAnagram(s, t)
 # print(f"Expected: False, Actual: {result1}")

@@ -6,7 +6,7 @@ I am working primarily in Python and C++.
 
 ### Problems Listed
     Total: 4
-    Total Python Complete: 3
+    Total Python Complete: 4
     Total C++ Complete: 1
 
 ### Leetcode:
@@ -18,4 +18,4 @@ I am working primarily in Python and C++.
 * 219.Contains Duplicates II
     * Python: Complete ✅
 * 242.Valid Anagram
-    * Python: In Progress ⌛
+    * Python: Complete ✅

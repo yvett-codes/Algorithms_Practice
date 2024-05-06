@@ -37,36 +37,76 @@ class Solution:
 
 ### Time Complexity
 1. Identify data structures which can have variable size.
+    There are two data structures that have variable size, ```s``` and ```t```, which both have a size of *n*.
     <br>
 
 2. Identify all the operations (steps) in the algorithm.
+    ```my_dict = {}```<br>
+    ```for i in s```<br>
+    ```if i not in my_dict```<br>
+    ```my_dict[i] = 1```<br>
+    ```my_dict[i] += 1```<br>
+    ```for j in t```<br>
+    ```if j not in my_dict```<br>
+    ```my_dict[j] -= 1```<br>
+    ```for key in my_dict.keys()```<br>
+    ```if my_dict[key]```<br>
     <br>
 
 3. Recognize which operations depend on the size of the data structure of size *n*.
-<br>
+    ```for i in s``` ➡️ **n**<br>
+    ```for j in t``` ➡️ **n**<br>
+    <br>
 
 4. Create an equation that represents how many operations get performed and use *n* as a variable.
-<br>
+    ```my_dict = {}``` ➡️ **1**<br>
+    ```for i in s``` ➡️ **n**<br>
+    ```if i not in my_dict``` ➡️ **1**<br>
+    ```my_dict[i] = 1``` ➡️ **1**<br>
+    ```my_dict[i] += 1``` ➡️ **1**<br>
+    ```for j in t``` ➡️ **n**<br>
+    ```if j not in my_dict``` ➡️ **1**<br>
+    ```my_dict[j] -= 1``` ➡️ **1**<br>
+    ```for key in my_dict.keys()``` ➡️ **n**<br>
+    ```if my_dict[key]``` ➡️ **1**<br>
+    <br> ➡️ 1 + n + 1 + 1 + 1 + n + 1 + 1 + n + 1 ➡️ 7 + 3n
+    <br>
 
 5. Drop all constants and find the dominant term.
-<br>
+    ➡️ 7 + 3n ➡️ 3n ➡️ n
+    <br>
 
 6. Match this to the most relevant complexity.
-<br>
+    n ➡️ **O(n) - Linear Time**<br>
+    <br>*The algorithm will grow in time directly proportional to the input size. The complexity increases at the same rate that the input increases.*
+    <br>
 
 
 ### Space complexity:
 1. Identify all places where a variable is initialized.
+    ```my_dict = {}```<br>
+    ```for i in s```<br>
+    ```my_dict[i] = 1```<br>
+    ```for j in t```<br>
     <br>
 
 2. Recognize which variables have a value that could take a variable amount of memory.
-<br>
+    ```my_dict = {}```<br>
+    <br>
 
 3. Create an equation that represents how many values are initialized and stored in memory.
-<br>
+    ```my_dict = {}``` ➡️ **n**<br>
+    ```for i in s``` ➡️  **1**<br>
+    ```my_dict[i] = 1``` ➡️  **1**<br>
+    ```for j in t``` ➡️  **1**<br>
+    <br> ➡️ n + 1 + 1 + 1 ➡️ n + 3
+    <br>
 
 4. Drop all constants and find the dominant term.
-<br>
+    ➡️ n + 3 ➡️ n
+    <br>
 
 5. Match this to the most relevant complexity.
-<br>
+    1 ➡️ **O(n) - Linear Space**<br>
+    <br>*The algorithm will grow in space directly proportional to the input size. The complexity increases at the same rate that the input increases.*
+    <br>

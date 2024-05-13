@@ -10,6 +10,8 @@ I am working primarily in Python and C++.
     Total C++ Complete: 1
 
 ### Leetcode:
+* 67.Two Sum
+    * Python: Complete ✅
 * 67.Add Binary
     * Python: Complete ✅
 * 217.Contains Duplicates

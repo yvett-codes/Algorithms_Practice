@@ -5,7 +5,7 @@ Progress: 63/63 Tests Passing
 '''
 
 class Solution:
-    # Implementation #1
+    # Implementation 1
     def twoSum(self, nums: list[int], target: int) -> list[int]:
         nums_dict = {i: nums[i] for i in range(len(nums))}
 
@@ -16,15 +16,15 @@ class Solution:
                 if nums_dict[i] + nums_dict[j] == target:
                     return [i, j]
 
-    # Implementation #2
+    # Implementation 2
     def twoSum(self, nums: list[int], target: int) -> list[int]:
         i = 0
         j = 1
-        while i < len(nums) and j < len(nums):
-            if i != j and nums[i] + nums[j] == target:
+        while i < len(nums) - 1:
+            if nums[i] + nums[j] == target:
                 return [i, j]
             elif j == len(nums) - 1:
-                j = 1
                 i += 1
+                j = i + 1
             else:
                 j += 1

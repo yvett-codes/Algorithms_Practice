@@ -51,9 +51,7 @@ class Solution:
 # Helper Functions
 def runCases(cases):
     for i in range(len(cases)):
-        print(f"--- Case {i + 1} ---")
-        result = solution.groupAnagrams(cases[i]["strs"])
-        findResult(cases[i]["expected"], result)
+        runCase(i + 1)
 
 def runCase(case):
     print(f"--- Case {case} ---")

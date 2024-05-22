@@ -26,6 +26,8 @@ class Solution:
         '''
         strings = strs[:]
         bigList = []
+        # Maybe a while loop will fix this?
+        # while strings:
         for w in strings:
             little_list = [w]
             strings.remove(w)
@@ -90,8 +92,10 @@ def runCases(cases):
 
 def runCase(case):
     print(f"--- Case {case} ---")
-    result = solution.groupAnagrams(cases[case - 1]["strs"])
-    findResult(cases[case - 1]["strs"], cases[case - 1]["expected"], result)
+    input = cases[case - 1]["strs"]
+    expected = cases[case - 1]["expected"]
+    result = solution.groupAnagrams(input)
+    findResult(input, expected, result)
 
 def findResult(input, expected, result):
     if result == expected:

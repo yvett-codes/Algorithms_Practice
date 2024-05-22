@@ -1,12 +1,12 @@
 '''
-Status: Complete
-Progress: 63/63 Tests Passing
-2 Implentations Included
+Status: In Progress
+Progress: 20/126 Tests Passing
 '''
 
 class Solution:
     def groupAnagrams(self, strs: list[str]) -> list[list[str]]:
         '''
+        Tags: Array, Hash Table, String, Sorting
         Goal: We're given an aray of strings and we have to group all anagrams together. The output will be a list of lists. Each inner list contains strings of anagrams
 
         Approach: Well the anagrams can be any arrangement of letters, so that means it's not just forwards and backwards. Should I take each string and find every anagram?
@@ -19,15 +19,49 @@ class Solution:
             - Right, some of the strings don't have anagrams...
             - I can produce new lists based off of the anagrams, and then add it to the final return value...
             - can i assume that every input string is a real word?
+
+        Example:
+            "strs": ["eat","tea","tan","ate","nat","bat"],
+            "expected": [["bat"],["nat","tan"],["ate","eat","tea"]]
         '''
-        if strs == [""]:
-            return [[""]]
+        strings = strs[:]
+        bigList = []
+        for w in strings:
+            little_list = [w]
+            strings.remove(w)
+            for x in strings:
+                result = self.checkAnagram(w, x)
+                if result:
+                    little_list.append(x)
+                    strings.remove(x)
+            little_list.sort()
+            bigList.append(little_list)
+
+        if strings:
+            bigList.append([strings[0]])
         
-        # Create Anagram Hash Table
-        # Compare the rest of the string to the Hash Table
-        # Create lists of anagrams
-        # Return list of lists
-        return [["True"]]
+        bigList = sorted(bigList, key=len)
+        return bigList
+    
+    def checkAnagram(self, string1: str, string2: str) -> bool:
+        string1_dict = {}
+        for l in string1:
+            if l in string1_dict:
+                string1_dict[l] += 1
+            else:
+                string1_dict[l] = 1
+
+        for j in string2:
+            if j in string1:
+                string1_dict[j] -= 1
+            else:
+                return False
+            
+        for k in string1_dict.keys():
+            if string1_dict[k] > 0:
+                return False
+        
+        return True
     
 
 
@@ -56,14 +90,14 @@ def runCases(cases):
 def runCase(case):
     print(f"--- Case {case} ---")
     result = solution.groupAnagrams(cases[case - 1]["strs"])
-    findResult(cases[case - 1]["expected"], result)
+    findResult(cases[case - 1]["strs"], cases[case - 1]["expected"], result)
 
-def findResult(expected, result):
+def findResult(input, expected, result):
     if result == expected:
-        print("Correct! ✅")
+        print("Pass ✅\n")
     else:
-        print("INCORRECT ❌")    
-    print(f"Expected: {expected}\nResult: {result}\n")
+        print("FAIL ❌")    
+        print(f"Input: {input}\nExpected: {expected}\nResult: {result}\n")
 
 # Cases
 cases = [
@@ -78,10 +112,14 @@ cases = [
     {
         "strs": ["a"],
         "expected": [["a"]]
+    },
+    {
+        "strs": ["","",""],
+        "expected": [["","",""]]
     }
 ]
 
 # Calls
 solution = Solution()
 runCases(cases)
-# runCase(3)
+# runCase(1)

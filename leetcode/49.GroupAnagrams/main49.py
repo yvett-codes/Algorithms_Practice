@@ -37,8 +37,9 @@ class Solution:
             little_list.sort()
             bigList.append(little_list)
 
-        if strings:
-            bigList.append([strings[0]])
+        # Doesn't actually fix the problem
+        # if strings:
+            # bigList.append([strings[0]])
         
         bigList = sorted(bigList, key=len)
         return bigList

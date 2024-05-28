@@ -20,50 +20,57 @@ class Solution:
             - I can produce new lists based off of the anagrams, and then add it to the final return value...
             - can i assume that every input string is a real word?
 
+        - New Notes:
+            - If the two words are anagrams of each other, if they are both sorted, they should be equal. (ie, god, dog -> dgo, dgo) duhh oh my god
+
         Example:
             "strs": ["eat","tea","tan","ate","nat","bat"],
             "expected": [["bat"],["nat","tan"],["ate","eat","tea"]]
         '''
         strings = strs[:]
         bigList = []
-        # Maybe a while loop will fix this?
-        # while strings:
-        for w in strings:
-            little_list = [w]
-            strings.remove(w)
-            for x in strings:
-                result = self.checkAnagram(w, x)
-                if result:
-                    little_list.append(x)
-                    strings.remove(x)
-            little_list.sort()
-            bigList.append(little_list)
+        little_list = []
+        i = 0
+        j = 1
+        while i < len(strings):
+            if i == len(strings) - 1 and j == len(strings):
+                bigList.append([strings[i]])
+                break
+            result = self.checkAnagram(strings[i], strings[j])
+            if result:
+                if strings[i] not in little_list:
+                    little_list.append(strings[i])
+                little_list.append(strings[j])
+            if j == len(strings) - 1:
+                if little_list:
+                    little_list.sort()
+                    bigList.append(little_list)
+                    little_list = []
+                i += 1
+                j = i + 1
+            else:
+                j += 1
 
-        # Doesn't actually fix the problem
-        # if strings:
-            # bigList.append([strings[0]])
-        
         bigList = sorted(bigList, key=len)
         return bigList
     
-    def checkAnagram(self, string1: str, string2: str) -> bool:
-        string1_dict = {}
-        for l in string1:
-            if l in string1_dict:
-                string1_dict[l] += 1
+    def checkAnagram(self, s1: str, s2: str) -> bool:
+        s_dict = {}
+        for l in s1:
+            if l in s_dict:
+                s_dict[l] += 1
             else:
-                string1_dict[l] = 1
+                s_dict[l] = 1
 
-        for j in string2:
-            if j in string1:
-                string1_dict[j] -= 1
+        for j in s2:
+            if j in s1:
+                s_dict[j] -= 1
             else:
-                return False
-            
-        for k in string1_dict.keys():
-            if string1_dict[k] > 0:
                 return False
         
+        for key in s_dict.keys():
+            if s_dict[key]:
+                return False
         return True
     
 
@@ -127,4 +134,4 @@ cases = [
 # Calls
 solution = Solution()
 runCases(cases)
-# runCase(1)
+# runCase(2)

@@ -21,3 +21,18 @@ I am working primarily in Python and C++.
     * Python: Complete ✅
 * 242.Valid Anagram
     * Python: Complete ✅📝
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## String
+|  |
+| ------- |
+| [2470-removing-stars-from-a-string](https://github.com/yvett-codes/Algorithms_Practice/tree/master/2470-removing-stars-from-a-string) |
+## Stack
+|  |
+| ------- |
+| [2470-removing-stars-from-a-string](https://github.com/yvett-codes/Algorithms_Practice/tree/master/2470-removing-stars-from-a-string) |
+## Simulation
+|  |
+| ------- |
+| [2470-removing-stars-from-a-string](https://github.com/yvett-codes/Algorithms_Practice/tree/master/2470-removing-stars-from-a-string) |
+<!---LeetCode Topics End-->

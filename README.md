@@ -35,4 +35,12 @@ I am working primarily in Python and C++.
 |  |
 | ------- |
 | [2470-removing-stars-from-a-string](https://github.com/yvett-codes/Algorithms_Practice/tree/master/2470-removing-stars-from-a-string) |
+## Linked List
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0206-reverse-linked-list) |
+## Recursion
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->

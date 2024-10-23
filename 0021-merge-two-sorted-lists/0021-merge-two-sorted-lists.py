@@ -27,3 +27,6 @@ class Solution:
             cur.next = list2
 
         return dum.next
+
+        # Time: O(n)
+        # Space: O(1)

@@ -12,3 +12,6 @@ class Solution:
             cur1 = cur1.next if cur1 else headB
             cur2 = cur2.next if cur2 else headA
         return cur1
+
+        # Time: O(n+m)
+        # Space: O(1)

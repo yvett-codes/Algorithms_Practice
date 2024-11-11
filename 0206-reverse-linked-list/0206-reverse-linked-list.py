@@ -16,3 +16,6 @@ class Solution:
             cur = temp
         
         return prev
+
+    # Time: O(n)
+    # Space: O(1)

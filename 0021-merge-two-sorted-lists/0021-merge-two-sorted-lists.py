@@ -10,23 +10,14 @@ class Solution:
 
         while list1 and list2:
             if list1.val < list2.val:
-                #list1 is smaller
-                cur.next = list1 # create the attachment
-                # reset pointers
+                cur.next = list1
                 cur = list1
                 list1 = list1.next
             else:
-                # list 2 is smaller
                 cur.next = list2
                 cur = list2
                 list2 = list2.next
-        
-        if list1:
-            cur.next = list1
-        else:
-            cur.next = list2
+
+        cur.next = list1 if list1 else list2
 
         return dum.next
-
-        # Time: O(n)
-        # Space: O(1)

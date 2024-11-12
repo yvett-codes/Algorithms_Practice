@@ -21,3 +21,6 @@ class Solution:
         cur.next = list1 if list1 else list2
 
         return dum.next
+
+        # Time: O(n)
+        # Space: O(1)

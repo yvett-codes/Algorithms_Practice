@@ -18,4 +18,7 @@ class Solution:
                 prev.next = cur.next
             else:
                 prev = prev.next
+
+        # Time: O(n)
+        # Space: O(1)
             

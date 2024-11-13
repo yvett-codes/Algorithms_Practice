@@ -13,3 +13,6 @@ class Solution:
             curB = curB.next if curB else headA
 
         return curA
+
+        # Time: O(n+m)
+        # Space: O(1)

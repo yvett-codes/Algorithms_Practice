@@ -15,5 +15,7 @@ class Solution:
             fast = fast.next.next
             if slow == fast:
                 return True
-        
         return False
+
+        # Time: O(n)
+        # Space: O(1)

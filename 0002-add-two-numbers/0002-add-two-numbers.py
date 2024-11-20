@@ -35,7 +35,5 @@ class Solution:
             key += 1
             if key < len(num3):
                 value.next = l3_map[key]
-            else:
-                value.next = None
 
         return l3_map[0]

@@ -45,6 +45,7 @@ I am working primarily in Python and C++.
 | [0141-linked-list-cycle](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0160-intersection-of-two-linked-lists) |
 | [0206-reverse-linked-list](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0206-reverse-linked-list) |
+| [0528-swapping-nodes-in-a-linked-list](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0528-swapping-nodes-in-a-linked-list) |
 ## Recursion
 |  |
 | ------- |
@@ -62,6 +63,7 @@ I am working primarily in Python and C++.
 | [0019-remove-nth-node-from-end-of-list](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0141-linked-list-cycle](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0160-intersection-of-two-linked-lists) |
+| [0528-swapping-nodes-in-a-linked-list](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0528-swapping-nodes-in-a-linked-list) |
 ## Math
 |  |
 | ------- |

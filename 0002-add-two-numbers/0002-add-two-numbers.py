@@ -5,35 +5,47 @@
 #         self.next = next
 class Solution:
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
-        cur1 = l1
-        cur2 = l2
-        
-        # convert
-        num1 = ''
-        while cur1:
-            num1 += f"{cur1.val}"
-            cur1 = cur1.next
-        num1 = int(num1[::-1])
+        curA = l1
+        curB = l2
+        l3 = None
+        # dum = ListNode()
+        carry = 0
 
-        num2 = ''
-        while cur2:
-            num2 += f"{cur2.val}"
-            cur2 = cur2.next
-        num2 = int(num2[::-1])
-        
-        # revert
-        num3 = num1 + num2
-        num3 = str(num3)
-        num3 = num3[::-1]
-        
-        # build linked list
-        l3_map = {}
-        for i in range(len(num3)):
-            l3_map[i] = ListNode(int(num3[i]))
+        while curA or curB: # meh
+            curA_val = 0 if not curA else curA.val
+            curB_val = 0 if not curB else curB.val
+            to_add = curA_val + curB_val + carry
 
-        for key, value in l3_map.items():
-            key += 1
-            if key < len(num3):
-                value.next = l3_map[key]
+            if to_add > 9:
+                to_add -= 10
+                curC = ListNode(to_add)
+                carry = 1
+                print(f"if statement curC: {curC}")
+            else:
+                curC = ListNode(to_add)
+                carry = 0
+                print(f"if statement curC: {curC}")
 
-        return l3_map[0]
+            print(f"in loop l3: {l3}")
+            print(f"out of conditional curC: {curC}")
+            if not l3:
+                l3 = curC
+                prev = curC
+            # prev = curC
+            else:
+                prev.next = curC
+                prev = prev.next
+            # curC = curC.next
+            
+            curA = curA.next if curA else None
+            curB = curB.next if curB else None
+            print(f'l3: {l3} END OF LOOP')
+
+        curC = curA if curA else curB
+        if carry:
+            prev.next = ListNode(carry)
+
+        print(l3)
+        return l3
+
+        

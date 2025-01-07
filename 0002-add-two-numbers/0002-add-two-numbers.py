@@ -34,8 +34,5 @@ class Solution:
             curB = curB.next if curB else None
 
         curC = curA if curA else curB
-        if carry:
-            prev.next = ListNode(carry)
+        prev.next = ListNode(carry) if carry else None
         return l3
-
-        

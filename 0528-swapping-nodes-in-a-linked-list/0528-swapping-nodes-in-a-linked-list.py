@@ -5,32 +5,24 @@
 #         self.next = next
 class Solution:
     def swapNodes(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
-        '''
-        1. Start at the beginning, iterate `k - 1` times to get a pointer at the left node
-        2. To get the pointer on the right, calculate the length of the linked list, then iterate `length - k` times
-        3. Then swap the two values
-        '''
-        pointL = pointR = head
+        dum = ListNode(0, head)
+        left = right = dum
 
-        # Adjust left pointer
-        for i in range(k - 1):
-            pointL = pointL.next
+        for i in range(k):
+            left = left.next
+        while left:
+            left = left.next
+            right = right.next
 
-        # Find length of input
-        length = 1
-        while pointR.next:
-            pointR = pointR.next
-            length += 1
-        pointR = head
+        left = dum
+        for i in range(k):
+            left = left.next
 
-        # Adjust right pointer
-        for i in range(length - k):
-            pointR = pointR.next
+        temp = left.val
+        left.val = right.val
+        right.val = temp
 
-        # Swap values
-        rightVal = pointR.val
-        leftVal = pointL.val
-        pointL.val = rightVal
-        pointR.val = leftVal
+        return dum.next
 
-        return head
+        # Time: O(n)
+        # Space: O(1)

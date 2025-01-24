@@ -26,5 +26,4 @@ class Solution:
             pointC = pointC.next
 
         pointC.next = ListNode(carry) if carry else None
-
         return dum.next

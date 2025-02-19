@@ -13,6 +13,7 @@ class Solution:
                 prev.next = cur.next
             else:
                 prev = cur
-
         return dum.next
         
+        # Time: O(n)
+        # Space: O(1)

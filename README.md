@@ -42,6 +42,7 @@ I am working primarily in Python.
 | ------- |
 | [0141-linked-list-cycle](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0160-intersection-of-two-linked-lists) |
+| [0217-contains-duplicate](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0217-contains-duplicate) |
 ## Two Pointers
 |  |
 | ------- |
@@ -54,4 +55,12 @@ I am working primarily in Python.
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0002-add-two-numbers) |
+## Array
+|  |
+| ------- |
+| [0217-contains-duplicate](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0217-contains-duplicate) |
+## Sorting
+|  |
+| ------- |
+| [0217-contains-duplicate](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0217-contains-duplicate) |
 <!---LeetCode Topics End-->

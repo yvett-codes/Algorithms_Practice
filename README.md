@@ -8,6 +8,7 @@ I am working primarily in Python.
 ## String
 |  |
 | ------- |
+| [0242-valid-anagram](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0242-valid-anagram) |
 | [2470-removing-stars-from-a-string](https://github.com/yvett-codes/Algorithms_Practice/tree/master/2470-removing-stars-from-a-string) |
 ## Stack
 |  |
@@ -43,6 +44,7 @@ I am working primarily in Python.
 | [0141-linked-list-cycle](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0160-intersection-of-two-linked-lists) |
 | [0217-contains-duplicate](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0242-valid-anagram) |
 ## Two Pointers
 |  |
 | ------- |
@@ -63,4 +65,5 @@ I am working primarily in Python.
 |  |
 | ------- |
 | [0217-contains-duplicate](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0242-valid-anagram) |
 <!---LeetCode Topics End-->

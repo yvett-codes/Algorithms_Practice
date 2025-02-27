@@ -41,6 +41,7 @@ I am working primarily in Python.
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0001-two-sum) |
 | [0141-linked-list-cycle](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0160-intersection-of-two-linked-lists) |
 | [0217-contains-duplicate](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0217-contains-duplicate) |
@@ -60,6 +61,7 @@ I am working primarily in Python.
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0001-two-sum) |
 | [0217-contains-duplicate](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0217-contains-duplicate) |
 ## Sorting
 |  |

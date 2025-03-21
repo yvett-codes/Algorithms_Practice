@@ -63,6 +63,7 @@ I am working primarily in Python.
 | ------- |
 | [0001-two-sum](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0001-two-sum) |
 | [0217-contains-duplicate](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0217-contains-duplicate) |
+| [2350-find-closest-number-to-zero](https://github.com/yvett-codes/Algorithms_Practice/tree/master/2350-find-closest-number-to-zero) |
 ## Sorting
 |  |
 | ------- |

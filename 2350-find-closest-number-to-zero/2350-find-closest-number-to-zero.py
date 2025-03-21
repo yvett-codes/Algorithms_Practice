@@ -4,12 +4,13 @@ class Solution:
         value = min(nums)
         print(abs_value, value)
         for n in nums:
-            num = abs(n)
-            if num == abs_value and n > value:
+            if abs(n) == abs_value and n > value:
+                abs_value = abs(n)
                 value = n
-                abs_value = num
-            elif num < abs_value:
-                abs_value = num
+            elif abs(n) < abs_value:
+                abs_value = abs(n)
                 value = n
         return value
-        
+
+        # Time: O(n)
+        # Space: O(1)

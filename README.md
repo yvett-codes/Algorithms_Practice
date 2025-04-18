@@ -9,6 +9,7 @@ I am working primarily in Python.
 |  |
 | ------- |
 | [0242-valid-anagram](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0242-valid-anagram) |
+| [1894-merge-strings-alternately](https://github.com/yvett-codes/Algorithms_Practice/tree/master/1894-merge-strings-alternately) |
 | [2470-removing-stars-from-a-string](https://github.com/yvett-codes/Algorithms_Practice/tree/master/2470-removing-stars-from-a-string) |
 ## Stack
 |  |
@@ -54,6 +55,7 @@ I am working primarily in Python.
 | [0160-intersection-of-two-linked-lists](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0160-intersection-of-two-linked-lists) |
 | [0528-swapping-nodes-in-a-linked-list](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0528-swapping-nodes-in-a-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0908-middle-of-the-linked-list) |
+| [1894-merge-strings-alternately](https://github.com/yvett-codes/Algorithms_Practice/tree/master/1894-merge-strings-alternately) |
 ## Math
 |  |
 | ------- |

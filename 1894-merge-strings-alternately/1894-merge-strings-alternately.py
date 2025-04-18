@@ -17,3 +17,6 @@ class Solution:
         elif p2 < len(word2):
             result += word2[p2:]
         return result
+
+        # Time: O(n + m)
+        # Space: O(n + m)

@@ -1,22 +1,14 @@
 class Solution:
     def mergeAlternately(self, word1: str, word2: str) -> str:
-        p1 = 0
-        p2 = 0
-        result = ""
+        p = 0
+        merged_s = ""
 
-        while p1 < len(word1) and p2 < len(word2):
-            if p1 == p2:
-                result += word1[p1]
-                p1 += 1
-            else:
-                result += word2[p2]
-                p2 += 1
+        while p < len(word1) and p < len(word2):
+            merged_s += word1[p]
+            merged_s += word2[p]
+            p += 1
 
-        if p1 < len(word1):
-            result += word1[p1:]
-        elif p2 < len(word2):
-            result += word2[p2:]
-        return result
+        merged_s += word1[p:] if word1 else ""
+        merged_s += word2[p:] if word2 else ""
 
-        # Time: O(n + m)
-        # Space: O(n + m)
+        return merged_s

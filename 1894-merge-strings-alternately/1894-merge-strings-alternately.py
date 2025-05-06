@@ -12,3 +12,6 @@ class Solution:
         merged_s += word2[p:] if word2 else ""
 
         return merged_s
+
+        # Time: O(m + n)
+        # Space: O(m + n)

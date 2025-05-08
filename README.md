@@ -8,6 +8,7 @@ I am working primarily in Python.
 ## String
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0013-roman-to-integer) |
 | [0242-valid-anagram](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0242-valid-anagram) |
 | [1894-merge-strings-alternately](https://github.com/yvett-codes/Algorithms_Practice/tree/master/1894-merge-strings-alternately) |
 | [2470-removing-stars-from-a-string](https://github.com/yvett-codes/Algorithms_Practice/tree/master/2470-removing-stars-from-a-string) |
@@ -43,6 +44,7 @@ I am working primarily in Python.
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0001-two-sum) |
+| [0013-roman-to-integer](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0013-roman-to-integer) |
 | [0141-linked-list-cycle](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0160-intersection-of-two-linked-lists) |
 | [0217-contains-duplicate](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0217-contains-duplicate) |
@@ -60,6 +62,7 @@ I am working primarily in Python.
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0002-add-two-numbers) |
+| [0013-roman-to-integer](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0013-roman-to-integer) |
 ## Array
 |  |
 | ------- |

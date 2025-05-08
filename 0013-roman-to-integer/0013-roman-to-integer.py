@@ -10,13 +10,10 @@ class Solution:
             "M": 1000
         }
 
-        total = 0
-        val = roman_numerals[s[0]]
-        
-        for i in range(len(s)):
-            if roman_numerals[s[i]] > val:
+        total = roman_numerals[s[0]]    
+        for i in range(1, len(s)):
+            if roman_numerals[s[i]] > roman_numerals[s[i - 1]]:
                 total -= (roman_numerals[s[i - 1]] * 2)
-            val = roman_numerals[s[i]]
             total += roman_numerals[s[i]]
         return total
 

@@ -1,13 +1,12 @@
 class Solution:
     def numJewelsInStones(self, jewels: str, stones: str) -> int:
-        jewels_set = set(jewels)
+        jewels = {j:0 for j in jewels}
 
-        total = 0
         for s in stones:
-            if s in jewels_set:
-                total += 1
+            if s in jewels:
+                jewels[s] += 1
         
-        return total
-
-        # Time: O(n + m)
-        # Space: O(n)
+        sum = 0
+        for val in jewels.values():
+            sum += val
+        return sum

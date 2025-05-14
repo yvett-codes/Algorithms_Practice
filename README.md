@@ -10,6 +10,7 @@ I am working primarily in Python.
 | ------- |
 | [0013-roman-to-integer](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0013-roman-to-integer) |
 | [0242-valid-anagram](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0242-valid-anagram) |
+| [0383-ransom-note](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0383-ransom-note) |
 | [0782-jewels-and-stones](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0782-jewels-and-stones) |
 | [1894-merge-strings-alternately](https://github.com/yvett-codes/Algorithms_Practice/tree/master/1894-merge-strings-alternately) |
 | [2470-removing-stars-from-a-string](https://github.com/yvett-codes/Algorithms_Practice/tree/master/2470-removing-stars-from-a-string) |
@@ -50,6 +51,7 @@ I am working primarily in Python.
 | [0160-intersection-of-two-linked-lists](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0160-intersection-of-two-linked-lists) |
 | [0217-contains-duplicate](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0242-valid-anagram) |
+| [0383-ransom-note](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0383-ransom-note) |
 | [0782-jewels-and-stones](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0782-jewels-and-stones) |
 ## Two Pointers
 |  |
@@ -76,4 +78,8 @@ I am working primarily in Python.
 | ------- |
 | [0217-contains-duplicate](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0242-valid-anagram) |
+## Counting
+|  |
+| ------- |
+| [0383-ransom-note](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0383-ransom-note) |
 <!---LeetCode Topics End-->

@@ -7,12 +7,8 @@ class Solution:
         for m in magazine:
             m_dict[m] += 1
 
-
         for r in ransomNote:
-            if r not in m_dict:
+            if m_dict[r] == 0:
                 return False
-            else:
-                m_dict[r] -= 1
-                if not m_dict[r]:
-                    del m_dict[r]
+            m_dict[r] -= 1
         return True

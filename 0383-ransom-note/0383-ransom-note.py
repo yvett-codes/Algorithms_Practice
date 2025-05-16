@@ -8,7 +8,10 @@ class Solution:
             m_dict[m] += 1
 
         for r in ransomNote:
-            if m_dict[r] == 0:
+            if not m_dict[r]:
                 return False
             m_dict[r] -= 1
         return True
+
+        # Time: O(n + m)
+        # Space: O(1)

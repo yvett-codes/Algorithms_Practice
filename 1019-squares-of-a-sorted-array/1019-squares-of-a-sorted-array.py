@@ -13,3 +13,6 @@ class Solution:
                 r -= 1
 
         return sqrs[::-1]
+
+        # Time: O(n)
+        # Space: O(1)

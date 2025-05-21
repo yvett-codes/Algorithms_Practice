@@ -61,6 +61,7 @@ I am working primarily in Python.
 | [0160-intersection-of-two-linked-lists](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0160-intersection-of-two-linked-lists) |
 | [0528-swapping-nodes-in-a-linked-list](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0528-swapping-nodes-in-a-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0908-middle-of-the-linked-list) |
+| [1019-squares-of-a-sorted-array](https://github.com/yvett-codes/Algorithms_Practice/tree/master/1019-squares-of-a-sorted-array) |
 | [1894-merge-strings-alternately](https://github.com/yvett-codes/Algorithms_Practice/tree/master/1894-merge-strings-alternately) |
 ## Math
 |  |
@@ -72,12 +73,14 @@ I am working primarily in Python.
 | ------- |
 | [0001-two-sum](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0001-two-sum) |
 | [0217-contains-duplicate](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0217-contains-duplicate) |
+| [1019-squares-of-a-sorted-array](https://github.com/yvett-codes/Algorithms_Practice/tree/master/1019-squares-of-a-sorted-array) |
 | [2350-find-closest-number-to-zero](https://github.com/yvett-codes/Algorithms_Practice/tree/master/2350-find-closest-number-to-zero) |
 ## Sorting
 |  |
 | ------- |
 | [0217-contains-duplicate](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0242-valid-anagram) |
+| [1019-squares-of-a-sorted-array](https://github.com/yvett-codes/Algorithms_Practice/tree/master/1019-squares-of-a-sorted-array) |
 ## Counting
 |  |
 | ------- |

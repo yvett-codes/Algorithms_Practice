@@ -10,6 +10,7 @@ I am working primarily in Python.
 | ------- |
 | [0013-roman-to-integer](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0013-roman-to-integer) |
 | [0242-valid-anagram](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0242-valid-anagram) |
+| [0344-reverse-string](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0344-reverse-string) |
 | [0383-ransom-note](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0383-ransom-note) |
 | [0782-jewels-and-stones](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0782-jewels-and-stones) |
 | [1894-merge-strings-alternately](https://github.com/yvett-codes/Algorithms_Practice/tree/master/1894-merge-strings-alternately) |
@@ -59,6 +60,7 @@ I am working primarily in Python.
 | [0019-remove-nth-node-from-end-of-list](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0141-linked-list-cycle](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0160-intersection-of-two-linked-lists) |
+| [0344-reverse-string](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0344-reverse-string) |
 | [0528-swapping-nodes-in-a-linked-list](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0528-swapping-nodes-in-a-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0908-middle-of-the-linked-list) |
 | [1019-squares-of-a-sorted-array](https://github.com/yvett-codes/Algorithms_Practice/tree/master/1019-squares-of-a-sorted-array) |

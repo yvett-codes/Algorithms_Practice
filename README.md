@@ -60,6 +60,7 @@ I am working primarily in Python.
 | [0019-remove-nth-node-from-end-of-list](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0141-linked-list-cycle](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0160-intersection-of-two-linked-lists) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0344-reverse-string](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0344-reverse-string) |
 | [0528-swapping-nodes-in-a-linked-list](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0528-swapping-nodes-in-a-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0908-middle-of-the-linked-list) |
@@ -74,6 +75,7 @@ I am working primarily in Python.
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0001-two-sum) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0217-contains-duplicate](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0217-contains-duplicate) |
 | [1019-squares-of-a-sorted-array](https://github.com/yvett-codes/Algorithms_Practice/tree/master/1019-squares-of-a-sorted-array) |
 | [2350-find-closest-number-to-zero](https://github.com/yvett-codes/Algorithms_Practice/tree/master/2350-find-closest-number-to-zero) |
@@ -87,4 +89,8 @@ I am working primarily in Python.
 |  |
 | ------- |
 | [0383-ransom-note](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0383-ransom-note) |
+## Binary Search
+|  |
+| ------- |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 <!---LeetCode Topics End-->

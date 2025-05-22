@@ -20,6 +20,7 @@ I am working primarily in Python.
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0020-valid-parentheses) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0682-baseball-game](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0682-baseball-game) |
 | [2470-removing-stars-from-a-string](https://github.com/yvett-codes/Algorithms_Practice/tree/master/2470-removing-stars-from-a-string) |
 ## Simulation
@@ -75,10 +76,12 @@ I am working primarily in Python.
 | ------- |
 | [0002-add-two-numbers](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0002-add-two-numbers) |
 | [0013-roman-to-integer](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0013-roman-to-integer) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0150-evaluate-reverse-polish-notation) |
 ## Array
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0001-two-sum) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0217-contains-duplicate](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0217-contains-duplicate) |
 | [0682-baseball-game](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0682-baseball-game) |

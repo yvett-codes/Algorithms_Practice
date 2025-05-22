@@ -26,8 +26,6 @@ class Solution:
                 result = stck[-2] / stck[-1]
                 stck.pop()
                 stck.pop()
-                if result > 0:
-                    stck.append(math.floor(result))
-                else:
-                    stck.append(math.ceil(result))
+                stck.append(math.trunc(result))
+
         return sum(stck)

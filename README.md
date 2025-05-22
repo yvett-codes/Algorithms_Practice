@@ -9,6 +9,7 @@ I am working primarily in Python.
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0013-roman-to-integer) |
+| [0020-valid-parentheses](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0020-valid-parentheses) |
 | [0242-valid-anagram](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0344-reverse-string) |
 | [0383-ransom-note](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0383-ransom-note) |
@@ -18,6 +19,7 @@ I am working primarily in Python.
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0020-valid-parentheses) |
 | [0682-baseball-game](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0682-baseball-game) |
 | [2470-removing-stars-from-a-string](https://github.com/yvett-codes/Algorithms_Practice/tree/master/2470-removing-stars-from-a-string) |
 ## Simulation

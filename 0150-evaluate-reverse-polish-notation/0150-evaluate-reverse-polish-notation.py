@@ -5,7 +5,6 @@ class Solution:
         for o in tokens:
             if o.strip('-').isdigit():
                 stck.append(int(o))
-            # print(stck)
 
             if o == '+' and len(stck) >= 2:
                 result = stck[-2] + stck[-1]
@@ -29,3 +28,6 @@ class Solution:
                 stck.append(math.trunc(result))
 
         return sum(stck)
+
+        # Time: O(n)
+        # Space: O(n)

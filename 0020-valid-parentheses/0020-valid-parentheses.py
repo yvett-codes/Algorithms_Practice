@@ -16,6 +16,7 @@ class Solution:
                     return False
                 stack.pop()
             
-        if not stack:
-            return True
-        return False
+        return not stack
+
+        # Time: O(n)
+        # Space: O(n)

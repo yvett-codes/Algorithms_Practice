@@ -85,6 +85,7 @@ I am working primarily in Python.
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0217-contains-duplicate](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0217-contains-duplicate) |
 | [0682-baseball-game](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0682-baseball-game) |
+| [0792-binary-search](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0792-binary-search) |
 | [1019-squares-of-a-sorted-array](https://github.com/yvett-codes/Algorithms_Practice/tree/master/1019-squares-of-a-sorted-array) |
 | [2350-find-closest-number-to-zero](https://github.com/yvett-codes/Algorithms_Practice/tree/master/2350-find-closest-number-to-zero) |
 ## Sorting
@@ -101,4 +102,5 @@ I am working primarily in Python.
 |  |
 | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0792-binary-search](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0792-binary-search) |
 <!---LeetCode Topics End-->

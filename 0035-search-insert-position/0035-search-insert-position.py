@@ -11,10 +11,10 @@ class Solution:
             elif nums[mid] < target:
                 l = mid + 1
 
-        if nums[mid] > target:
-            return len(nums[:mid])
-        elif nums[mid] <= target:
+        if nums[mid] <= target:
             return mid + 1
+        else:
+            return mid
 
         # Time: O(logn)
         # Space: O(1)

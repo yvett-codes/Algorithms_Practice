@@ -15,3 +15,6 @@ class Solution:
             return len(nums[:mid])
         elif nums[mid] <= target:
             return mid + 1
+
+        # Time: O(logn)
+        # Space: O(1)

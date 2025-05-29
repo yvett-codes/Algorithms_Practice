@@ -12,9 +12,6 @@ class Solution:
                 l = mid + 1
 
         if nums[mid] > target:
-            if (mid - 1 >= 0):
-                return len(nums[:mid])
-            else:
-                return 0
+            return len(nums[:mid])
         elif nums[mid] <= target:
             return mid + 1

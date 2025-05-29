@@ -81,6 +81,7 @@ I am working primarily in Python.
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0001-two-sum) |
+| [0035-search-insert-position](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0035-search-insert-position) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0217-contains-duplicate](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0217-contains-duplicate) |
@@ -101,6 +102,7 @@ I am working primarily in Python.
 ## Binary Search
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0035-search-insert-position) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0792-binary-search](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0792-binary-search) |
 <!---LeetCode Topics End-->

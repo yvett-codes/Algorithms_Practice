@@ -85,6 +85,7 @@ I am working primarily in Python.
 | [0150-evaluate-reverse-polish-notation](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0217-contains-duplicate](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0217-contains-duplicate) |
+| [0643-maximum-average-subarray-i](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0643-maximum-average-subarray-i) |
 | [0682-baseball-game](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0682-baseball-game) |
 | [0792-binary-search](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0792-binary-search) |
 | [1019-squares-of-a-sorted-array](https://github.com/yvett-codes/Algorithms_Practice/tree/master/1019-squares-of-a-sorted-array) |
@@ -110,4 +111,8 @@ I am working primarily in Python.
 |  |
 | ------- |
 | [0278-first-bad-version](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0278-first-bad-version) |
+## Sliding Window
+|  |
+| ------- |
+| [0643-maximum-average-subarray-i](https://github.com/yvett-codes/Algorithms_Practice/tree/master/0643-maximum-average-subarray-i) |
 <!---LeetCode Topics End-->

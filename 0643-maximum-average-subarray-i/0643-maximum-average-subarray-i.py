@@ -9,3 +9,6 @@ class Solution:
                 max_sum = window_sum
         
         return max_sum / k
+
+        # Time: O(n)
+        # Space: O(1)
